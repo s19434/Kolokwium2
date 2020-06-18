@@ -52,7 +52,7 @@ namespace KOLOS.Services
                 }
 
 
-              //  ev.PerfomanceDate = events.PerfomanceDate;
+              //ev.PerfomanceDate = events.PerfomanceDate;
                 _context.SaveChanges();
                 tran.Commit();
 
